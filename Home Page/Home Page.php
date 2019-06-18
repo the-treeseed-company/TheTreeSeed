@@ -33,7 +33,7 @@
 
                 </style>
 
-            <!-- Before rendering Javascript -->
+            <!-- Before rendering: Javascript -->
                 <script>
 
                 </script>
@@ -46,7 +46,7 @@
             </div>
 
             
-            <!-- After redering Javascript -->
+            <!-- After redering: Javascript -->
                 <script>
 
                 </script>
