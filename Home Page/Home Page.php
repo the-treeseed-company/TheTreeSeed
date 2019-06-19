@@ -44,14 +44,12 @@
                         position: fixed; 
                         background-repeat:no-repeat;
                         background-size:cover;
-                        /*top: -20.5%; 
-                        left: -50%; */
                         width: 100%; 
                         height: 100%;
                     }
                     /*__________________________________________________________________________________________________________________________________________________________________________*/
                     
-                    /*Changes the curosor when you hover over the Sign in and Sign up text*/
+                    /*Changes the cursor to a pointer when you hover over objects*/
                     /*__________________________________________________________________________________________________________________________________________________________________________*/
                     .ChangePointer:hover{
                         cursor: pointer;
@@ -110,7 +108,57 @@
 
                                     <!-- Modal body -->
                                         <div class="modal-body">
-                                            Modal body..
+                                            <div class="row">
+                                                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3" style="border:1px solid black">xs</div>
+                                                <div class="col-sm-9 col-md-9 col-lg-9 col-xl-9" style="border:1px solid black">
+                                                    <div class="row">
+                                                        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" style="border:1px solid black">
+                                                            <b><font style="font-size:140%;">Get started with a free account</font></b>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4" style="border:1px solid black">
+                                                        </div>
+                                                        <div class="col-sm-8 col-md-8 col-lg-8 col-xl-8" style="border:1px solid black">
+                                                            <font style="font-size:85%;">Join the world wide conversation</font>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" style="border:1px solid black">
+                                                            <div style="line-height:80%;">
+                                                                <font style="font-size:65%">By having a TreeSeed account, you can engage in conversations about all your most desired topics</font>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" style="border:1px solid black">
+                                                            <form action="/action_page.php" class="needs-validation" novalidate>
+                                                                <div class="form-group">
+                                                                    <label for="uname">Email:</label>
+                                                                    <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+                                                                    <div class="valid-feedback">Valid.</div>
+                                                                    <div class="invalid-feedback">Please fill out this field.</div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label for="pwd">Password:</label>
+                                                                    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+                                                                    <div class="valid-feedback">Valid.</div>
+                                                                    <div class="invalid-feedback">Please fill out this field.</div>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="col-sm-5 col-md-5 col-lg-5 col-xl-5" style="border:1px solid black;">
+                                                                        <button type="submit" class="btn btn-primary">Get Started</button>
+                                                                    </div>
+                                                                    <div class="col-sm-7 col-md-7 col-lg-7 col-xl-7" style="border:1px solid black;padding-left:0;padding-right:0;">
+                                                                       <font style="font-size:60%;">by clicking the button you agree to TheeSeed's</font> <br> 
+                                                                        <a class="ChangePointer" data-toggle="modal" data-target="#ModalTerms"><b><font style="font-size:80%;">Anti-spam policy & Terms of use</font></b></a>
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                 
                                 </div>
@@ -132,6 +180,28 @@
                                             Modal body..
                                         </div>
                                 
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Anti-spam & Terms of use modal -->
+                        <div class="modal" id="ModalTerms" style="height:70%;overflow-y:hidden;">
+                            <div class="modal-dialog" style="height:100%;">
+                                <div class="modal-content" style="height:100%;">
+                                
+                                    <!-- Modal Header -->
+                                        <div class="modal-header" style="height:12%;">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        </div>
+
+                                    <!-- Modal body -->
+                                        <div class="modal-body" style="height:88%;padding-top:0 !important;">
+                                            <div class="row" style="height:100%;">
+                                                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" style="background-color:purple;width:100%;height:100%;overflow-y:auto !important;">
+                                                                       
+                                                </div>
+                                            </div>
+                                        </div>
                                 </div>
                             </div>
                         </div>
