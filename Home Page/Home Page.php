@@ -15,6 +15,12 @@
                 <!-- The main CSS file -->
                     <link rel = "stylesheet" type = "text/css" href = "Home Page.css" />
 
+                <!-- Font awesome icons -->
+                    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+
+                <!-- Google api icons -->
+                    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
             <!-- Boostrap links -->
                 <!-- Latest compiled and minified CSS -->
                     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -31,6 +37,27 @@
             <!-- Page Spesific CSS -->
                 <style>
 
+                    /* styling for the background image of the page */
+                    /*__________________________________________________________________________________________________________________________________________________________________________*/
+                    #bg {
+                        position: fixed; 
+                        top: 65.3%; 
+                        left: -50%; 
+                        width: 200%; 
+                        height: 200%;
+                    }
+
+                    #bg img {
+                        position: absolute; 
+                        top: 0; 
+                        left: 0; 
+                        right: 0; 
+                        bottom: 0; 
+                        margin: auto; 
+                        min-width: 50%;
+                        min-height: 50%;
+                    }
+                    /*__________________________________________________________________________________________________________________________________________________________________________*/
                 </style>
 
             <!-- Before rendering: Javascript -->
@@ -39,10 +66,32 @@
                 </script>
         </head>
         <body>
-            <div class="container-fluid">
-                <?php
-                    echo "My first PHP script!";
-                ?> 
+            <div class="container-fluid" style="padding-left:0px;padding-right:0px;">
+                <nav class="navbar navbar-expand-sm" style="border-top:3px solid #705f4b;border-bottom:3px solid #705f4b">
+                    <!-- Brand/logo -->
+                    <a class="navbar-brand" href="#">
+                        <img src="https://cdn.shopify.com/s/files/1/1438/7872/products/topic-tree-cover_grande.jpg?v=1477857286" alt="logo" style="width:40px;">
+                    </a>
+
+                    <!-- right side links -->
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fas fa-sign-in-alt" style="font-size:100%;color:white;"></i>
+                                Sign in
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fas fa-user-plus" style="font-size:100%;color:white;"></i>
+                                Sign up
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div id="bg">
+                    <img src="https://media.gettyimages.com/photos/media-and-magazine-news-stand-picture-id458286111?s=2048x2048" alt="">
+                </div>
             </div>
 
             
