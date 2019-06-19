@@ -39,15 +39,15 @@
 
                     /* styling for the background image of the page */
                     /*__________________________________________________________________________________________________________________________________________________________________________*/
-                    #bg {
+                    #background {
                         position: fixed; 
-                        top: 65.3%; 
+                        top: -20.5%; 
                         left: -50%; 
                         width: 200%; 
                         height: 200%;
                     }
 
-                    #bg img {
+                    #background img {
                         position: absolute; 
                         top: 0; 
                         left: 0; 
@@ -89,8 +89,10 @@
                         </li>
                     </ul>
                 </nav>
-                <div id="bg">
-                    <img src="https://media.gettyimages.com/photos/media-and-magazine-news-stand-picture-id458286111?s=2048x2048" alt="">
+                <div id="background">
+                    <!--<img src="https://media.gettyimages.com/photos/media-and-magazine-news-stand-picture-id458286111?s=2048x2048" alt="Please check your internet connection!">-->
+                    <!--<img src="https://images.unsplash.com/photo-1516179257071-71a54dbb4853?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="Please check your internet connection!">-->
+                    <img src="https://images.unsplash.com/photo-1515165616480-efd71925068f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="Please check your internet connection!">
                 </div>
             </div>
 
