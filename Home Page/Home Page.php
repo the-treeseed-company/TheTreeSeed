@@ -67,7 +67,7 @@
         </head>
         <body>
             <div class="container-fluid" style="padding-left:0px;padding-right:0px;">
-                <nav class="navbar navbar-expand-sm" style="border-top:3px solid #705f4b;border-bottom:3px solid #705f4b">
+                <nav class="navbar navbar-expand-sm" style="border-top:3px solid black;border-bottom:3px solid black">
                     <!-- Brand/logo -->
                     <a class="navbar-brand" href="#">
                         <img src="https://cdn.shopify.com/s/files/1/1438/7872/products/topic-tree-cover_grande.jpg?v=1477857286" alt="logo" style="width:40px;">
@@ -77,14 +77,14 @@
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
                             <a class="nav-link" href="#">
-                                <i class="fas fa-sign-in-alt" style="font-size:100%;color:white;"></i>
-                                Sign in
+                                <i class="fas fa-sign-in-alt" style="font-size:100%;color:black;"></i>
+                                <font style="color:black;">Sign in</font>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">
-                                <i class="fas fa-user-plus" style="font-size:100%;color:white;"></i>
-                                Sign up
+                                <i class="fas fa-user-plus" style="font-size:100%;color:black;"></i>
+                                <font style="color:black;">Sign up</font>
                             </a>
                         </li>
                     </ul>
@@ -94,9 +94,37 @@
                     <!--<img src="https://images.unsplash.com/photo-1516179257071-71a54dbb4853?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="Please check your internet connection!">-->
                     <img src="https://images.unsplash.com/photo-1515165616480-efd71925068f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="Please check your internet connection!">
                 </div>
+
+                <!-- Modals -->
+                    <!-- Sign up modal -->
+                        <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                
+                                    <!-- Modal body -->
+                                        <div class="modal-body">
+                                            Modal body..
+                                        </div>
+                                
+                                </div>
+                            </div>
+                        </div>
+
+                    <!-- Sign in modal -->
+                        <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                
+                                    <!-- Modal body -->
+                                        <div class="modal-body">
+                                            Modal body..
+                                        </div>
+                                
+                                </div>
+                            </div>
+                        </div>
             </div>
 
-            
             <!-- After redering: Javascript -->
                 <script>
 
