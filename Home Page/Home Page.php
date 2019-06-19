@@ -39,23 +39,22 @@
 
                     /* styling for the background image of the page */
                     /*__________________________________________________________________________________________________________________________________________________________________________*/
-                    #background {
+                    .Background{
+                        background-image: url("https://images.unsplash.com/photo-1515165616480-efd71925068f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
                         position: fixed; 
-                        top: -20.5%; 
-                        left: -50%; 
-                        width: 200%; 
-                        height: 200%;
+                        background-repeat:no-repeat;
+                        background-size:cover;
+                        /*top: -20.5%; 
+                        left: -50%; */
+                        width: 100%; 
+                        height: 100%;
                     }
-
-                    #background img {
-                        position: absolute; 
-                        top: 0; 
-                        left: 0; 
-                        right: 0; 
-                        bottom: 0; 
-                        margin: auto; 
-                        min-width: 50%;
-                        min-height: 50%;
+                    /*__________________________________________________________________________________________________________________________________________________________________________*/
+                    
+                    /*Changes the curosor when you hover over the Sign in and Sign up text*/
+                    /*__________________________________________________________________________________________________________________________________________________________________________*/
+                    .ChangePointer:hover{
+                        cursor: pointer;
                     }
                     /*__________________________________________________________________________________________________________________________________________________________________________*/
                 </style>
@@ -76,31 +75,39 @@
                     <!-- right side links -->
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link ChangePointer" data-toggle="modal" data-target="#ModalSignIn">
                                 <i class="fas fa-sign-in-alt" style="font-size:100%;color:black;"></i>
                                 <font style="color:black;">Sign in</font>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link ChangePointer" data-toggle="modal" data-target="#ModalSignUp">
                                 <i class="fas fa-user-plus" style="font-size:100%;color:black;"></i>
                                 <font style="color:black;">Sign up</font>
                             </a>
                         </li>
                     </ul>
                 </nav>
-                <div id="background">
+                <!--<div id="background">-->
                     <!--<img src="https://media.gettyimages.com/photos/media-and-magazine-news-stand-picture-id458286111?s=2048x2048" alt="Please check your internet connection!">-->
                     <!--<img src="https://images.unsplash.com/photo-1516179257071-71a54dbb4853?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="Please check your internet connection!">-->
-                    <img src="https://images.unsplash.com/photo-1515165616480-efd71925068f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="Please check your internet connection!">
+                    <!--<img src="https://images.unsplash.com/photo-1515165616480-efd71925068f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="Please check your internet connection!">-->
+                <!--</div>-->
+                <div class="Background">
+                dsad
                 </div>
 
                 <!-- Modals -->
                     <!-- Sign up modal -->
-                        <div class="modal" id="myModal">
+                        <div class="modal" id="ModalSignUp">
                             <div class="modal-dialog">
                                 <div class="modal-content">
-                                
+
+                                    <!-- Modal Header -->
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        </div>
+
                                     <!-- Modal body -->
                                         <div class="modal-body">
                                             Modal body..
@@ -111,10 +118,15 @@
                         </div>
 
                     <!-- Sign in modal -->
-                        <div class="modal" id="myModal">
+                        <div class="modal" id="ModalSignIn">
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                 
+                                    <!-- Modal Header -->
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        </div>
+
                                     <!-- Modal body -->
                                         <div class="modal-body">
                                             Modal body..
